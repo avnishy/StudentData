@@ -34,8 +34,12 @@ export default class StudentList extends Component {
           <tr>
             <th>Name</th>
             <th>Email</th>
+            <th>Phone</th>
             <th>Roll No</th>
+            <th>House No</th>
+            <th>Street</th>
             <th>City</th>
+            <th>State</th>
             <th>Action</th>
           </tr>
         </thead>

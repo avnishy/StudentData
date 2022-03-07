@@ -7,10 +7,23 @@ let studentSchema = new Schema({
   email: {
     type: String
   },
-  rollno: {
+  phone: {
     type: Number
   },
+  rollno: {
+    type: Number,
+    unique: true
+  },
+  houseno:{
+    type: String
+  },
+  street: {
+    type: String
+  },
   city:{
+    type: String
+  },
+  state:{
     type: String
   }
 }, {
